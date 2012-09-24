@@ -1,0 +1,60 @@
+Log: 1545.02504861 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 1334901700 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 1547.0253206 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 1546.96293056 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 1334847996 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 1545025.50926 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 01:18:70 22:1025 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 18.01.1970 22:10:25 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 20.04.2012 08:14:17 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 20.04.2012 12:17:09 korisnik 'lurajcevi'  -> podaci: (ime) Luka (prezime) Rajcevic (id) 3, je pokušao mijenjati podatke na stranici: /WebDiP/2011/vjezbe_05/lurajcevi/user_management.php?user=jose
+Log: 04.06.2012 19:56:33 korisnik 'admin se pokušao ulogirati s krivim podacima.
+Log: 04.06.2012 20:00:14 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 20:01:28 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 20:07:10 korisnik 'Asdsda Asdsd, korisničko ime = 'Asdsdd' ja zaključan.
+Log: 04.06.2012 20:10:20 korisnik '' je zatražio novu lozinku.
+Log: 04.06.2012 20:11:15 korisnik 'test' je zatražio novu lozinku.
+Log: 04.06.2012 20:12:38 korisnik 'Jose' se ulogirao u sustav.
+Log: 04.06.2012 20:15:42 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 20:16:06 korisnik 'Jose' se ulogirao u sustav.
+Log: 04.06.2012 20:25:17 događaj 'Festival splitske glazbe' je dodan u bazu.
+Log: 04.06.2012 20:27:54 događaj 'Futurama ' je dodan u bazu.
+Log: 04.06.2012 20:28:46 kategorija 'Sport' je dodana u bazu.
+Log: 04.06.2012 20:30:08 korisnik 'Luka Rajčević' se upravo registrirao na stranicu.
+Log: 04.06.2012 20:30:54 korisnik 'lurajcevi' se pokušao ulogirati s krivim podacima.
+Log: 04.06.2012 20:31:19 korisnik 'lurajcevi' se ulogirao u sustav.
+Log: 04.06.2012 20:36:36 korisnik 'lurajcevi' se ulogirao u sustav.
+Log: 04.06.2012 20:38:41 korisnik 'Jose' se ulogirao u sustav.
+Log: 04.06.2012 20:49:50 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 21:34:26 korisnik 'Jose' se ulogirao u sustav.
+Log: 04.06.2012 21:34:50 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 21:46:09 korisnik 'admin' se ulogirao u sustav.
+Log: 04.06.2012 22:05:10 Slika 'Festival 1' je dodana u sustav.
+Log: 04.06.2012 22:05:26 Slika 'Festival 2' je dodana u sustav.
+Log: 04.06.2012 22:07:09 Slika 'Festival 2' je dodana u sustav.
+Log: 04.06.2012 22:07:22 Slika 'asdas' je dodana u sustav.
+Log: 04.06.2012 22:31:41 korisnik 'Test Test' se upravo registrirao na stranicu.
+Log: 04.06.2012 22:48:44 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 08:08:20 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 08:10:01 korisnik 'Test Test' se upravo registrirao na stranicu.
+Log: 05.06.2012 08:13:35 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 08:15:46 korisnik 'Test Test' se upravo registrirao na stranicu.
+Log: 05.06.2012 08:18:32 korisnik 'lurajcevi123' se ulogirao u sustav.
+Log: 05.06.2012 08:22:40 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 08:29:11 korisnik 'Jose' se ulogirao u sustav.
+Log: 05.06.2012 08:49:37 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 10:50:06 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 10:53:00 korisnik 'Nina Badrić' se upravo registrirao na stranicu.
+Log: 06.06.2012 11:54:50 korisnik 'Nina' se pokušao ulogirati s krivim podacima.
+Log: 05.06.2012 10:55:34 korisnik 'Nina' se pokušao ulogirati s krivim podacima.
+Log: 05.06.2012 10:57:20 korisnik 'Nina Badrić' se upravo registrirao na stranicu.
+Log: 05.06.2012 10:57:48 korisnik 'nbadric' se ulogirao u sustav.
+Log: 05.06.2012 10:58:14 korisnik 'nbadric' se ulogirao u sustav.
+Log: 05.06.2012 10:58:58 korisnik 'Human' je zatražio novu lozinku.
+Log: 05.06.2012 11:01:53 korisnik 'nbadric' se ulogirao u sustav.
+Log: 05.06.2012 11:04:09 događaj 'Prometej' je dodan u bazu.
+Log: 05.06.2012 11:04:43 Slika 's1' je dodana u sustav.
+Log: 05.06.2012 11:05:26 Slika 's1' je dodana u sustav.
+Log: 05.06.2012 12:04:51 korisnik 'admin' se ulogirao u sustav.
+Log: 05.06.2012 14:36:30 korisnik 'admin' se ulogirao u sustav.
+Log: 05.07.2012 20:50:19 korisnik 'admin' se ulogirao u sustav.

@@ -1,0 +1,243 @@
+﻿insert into tip_korisnika values(1, 'reg_korisnik');
+insert into tip_korisnika values(2, 'moderator');
+insert into tip_korisnika values(3, 'administrator');
+
+insert into korisnik values 
+(1,2,'Luka', 'Rajčević', 'lurajcevi@foi.hr', 'lurajcevi', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(2,1,'Nikola', 'Sever', 'nisever@foi.hr', 'nisever', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(3,1,'Mate', 'Serdarević', 'maserdare@foi.hr', 'maserdare', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(4,1,'Davor', 'Tomala', 'datomala@foi.hr', 'datomala', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(5,1,'Tomislav', 'Vrbošić', 'tovrbosic@foi.hr', 'tovrbosic', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(6,1,'Domagoj', 'Tonkovic', 'dotonkovi@foi.hr', 'dotonkovi', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(7,2,'Marija', 'Rajčević', 'mrajcevi@foi.hr', 'mrajcevi', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(8,2,'Ivana', 'Janković', 'ivana@hotmail.com', 'ivana123', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(9,2,'Mod', 'Modić', 'moderator@foi.hr', 'mod', 'lozinka123',1, NULL, NULL);
+insert into korisnik values 
+(10,3,'Luka', 'Rajčević', 'lurajcevi@foi.hr', 'admin', 'admin',1, NULL, NULL);
+
+insert into korisnik_adresa values
+(1, 'Ulica 1');
+insert into korisnik_adresa values
+(1, 'Ulica 2');
+insert into korisnik_adresa values
+(2, 'Ulica 3');
+insert into korisnik_adresa values
+(3, 'Ulica 4');
+insert into korisnik_adresa values
+(4, 'Ulica 5');
+insert into korisnik_adresa values
+(5, 'Ulica 6');
+insert into korisnik_adresa values
+(6, 'Ulica 7');
+insert into korisnik_adresa values
+(7, 'Ulica 8');
+insert into korisnik_adresa values
+(8, 'Ulica 9');
+insert into korisnik_adresa values
+(9, 'Ulica 10');
+insert into korisnik_adresa values
+(10, 'Ulica 11');
+
+insert into korisnik_telefon values
+(1, '123456789');
+insert into korisnik_adresa values
+(2, '213456789');
+insert into korisnik_adresa values
+(3, '214356789');
+insert into korisnik_adresa values
+(4, '213456798');
+insert into korisnik_adresa values
+(5, '213490789');
+insert into korisnik_adresa values
+(6, '209056789');
+insert into korisnik_adresa values
+(7, '213454532');
+insert into korisnik_adresa values
+(8, '254655789');
+insert into korisnik_adresa values
+(9, '213444449');
+insert into korisnik_adresa values
+(10, '213433329');
+
+insert into korisnik_kartica values
+(1,'Visa', '1234567-1234657896');
+insert into korisnik_kartica values
+(1,'Visa electron', '1234617-1234657896');
+insert into korisnik_kartica values
+(1,'MasterCard', '1277767-1234657896');
+insert into korisnik_kartica values
+(2,'Maestro', '2134567-1234657896');
+insert into korisnik_kartica values
+(3,'Diners', '1324567-1234657896');
+insert into korisnik_kartica values
+(4,'AmEx', '1234578-1234657896');
+insert into korisnik_kartica values
+(6,'MasterCard', '1234567-1234658796');
+insert into korisnik_kartica values
+(8,'Visa', '1234567-1233257896');
+insert into korisnik_kartica values
+(8,'Podravska banka', '1234567-1226257896');
+insert into korisnik_kartica values
+(8,'PBZ card', '1234567-1784657896');
+
+insert into kategorija values
+(1,1, 'Koncert', 'Kategorija u kojoj se nalaze glazbeni koncerti', NULL);
+insert into kategorija values
+(2,1, 'Film', 'Kategorija u kojoj se prikazuju filmovi koji se izvode u kinima', NULL);
+insert into kategorija values
+(3,7, 'Priredbe', 'Kategorija u kojoj se nalaze priredbe', NULL);
+insert into kategorija values
+(4,8, 'Sport', 'Kategorija u kojoj se nalaze događaji sportskog karaktera', NULL);
+insert into kategorija values
+(5,7, 'Predavanja', 'Kategorija u kojoj se nalaze predavanja i aktivnosti vezane uz učenje', NULL);
+insert into kategorija values
+(6,8, 'Promocije', 'Kategorija u kojoj se prikazuju događaji vezani uz promocije svih vrsta', NULL);
+insert into kategorija values
+(7,9, 'Kazalište', 'Kategorija u kojoj se nalaze sve kazališne predstave', NULL);
+insert into kategorija values
+(8,9, 'Ostalo', 'Kategorija u kojoj se nalazi sve što ne pripada u neku drugu kategoriju', NULL);
+
+
+insert into dogadaj values
+(1,1,1,'Koncert - Azra', 'Koncert kultnog benda Azra', '2012-12-12', '20:00:00',
+200, 'Varaždin', 1);
+insert into dogadaj values
+(2,1,1,'Koncert - Eric Clapton', 'Koncert kultnog rokera i bluzera EC-a', '2012-07-12', '20:00:00',
+400, 'Zagreb', 1);
+insert into dogadaj values
+(3,1,2,'Charlie Chaplin returns', 'Najnoviji horror iz hollywooda dolazi u kina u Varaždin', '2012-03-12', '23:00:00',
+20, 'Varaždin', 0);
+insert into dogadaj values
+(4,8,4,'Paintball turnir', 'Turnir u paintballu, nagrade zajamčene!', '2012-06-04', '16:00:00',
+90, 'Osijek', 1);
+insert into dogadaj values
+(5,9,7,'Opera - La boheme', 'Svjetski poznata opera u Lisinskom.', '2012-10-12', '20:00:00',
+400, 'Zagreb', 1);
+insert into dogadaj values
+(6,7,5,'Predavanje: Uvod u PHP i MySQL', 'Predavanje na temu PHP-a i MySQl-a na FOI-u.', '2012-05-12', '13:00:00',
+0, 'Varaždin', 1);
+insert into dogadaj values
+(7,7,3,'Dječja priredba: Zubić vila', 'Dječja priredba: Zubić vila', '2012-12-12', '15:00:00',
+15, 'Varaždin', 1);
+insert into dogadaj values
+(8,7,3,'Dječja priredba: Palčica', 'Dječja priredba: Palčica', '2012-12-12', '17:00:00',
+15, 'Varaždin', 1);
+insert into dogadaj values
+(9,7,3,'Dječja priredba: Stonoga', 'Dječja priredba: Stonoga', '2012-12-12', '13:00:00',
+15, 'Varaždin', 1);
+insert into dogadaj values
+(10,8,4,'Pokemon turnir', 'Turnir pokemon lige stigao je u Varaždin. Sudjelujte i osvojite vrijedne nagrade!', '2020-12-12', '08:00:00',
+15, 'Varaždin', 1);
+
+
+insert into slobodna_mjesta values
+(1,2000,1500);
+insert into slobodna_mjesta values
+(2,25000,25000);
+insert into slobodna_mjesta values
+(3,150,150);
+insert into slobodna_mjesta values
+(4,100,20);
+insert into slobodna_mjesta values
+(5,200,0);
+insert into slobodna_mjesta values
+(6,200,120);
+insert into slobodna_mjesta values
+(7,100,30);
+insert into slobodna_mjesta values
+(8,200,200);
+insert into slobodna_mjesta values
+(9,200,150);
+insert into slobodna_mjesta values
+(10,20000,0);
+
+insert into slika values
+(1, 1,null, null, null, null);
+insert into slika values
+(2, 2,null, null, null, null);
+insert into slika values
+(3, 3,null, null, null, null);
+insert into slika values
+(4, 1,null, null, null, null);
+insert into slika values
+(5, 1,null, null, null, null);
+insert into slika values
+(6, 2,null, null, null, null);
+insert into slika values
+(7, 4,null, null, null, null);
+insert into slika values
+(8, 5,null, null, null, null);
+insert into slika values
+(9, 6,null, null, null, null);
+insert into slika values
+(10, 7,null, null, null, null);
+insert into slika values
+(11, 8,null, null, null, null);
+
+
+insert into komentar values
+(1,NULL, 1, 1, 'Super koncert! Jedva  čekam.');
+insert into komentar values
+(2,NULL, 1, 2, 'Ma užas, bolje da su pozvali RATM!');
+insert into komentar values
+(3,NULL, 2, 5, 'To je to!! Predobro.');
+insert into komentar values
+(4,NULL, 10, 3, 'A wild pokemon tournament appears!');
+insert into komentar values
+(5,NULL, 10, 4, 'Pikachu, ja biram tebe!');
+insert into komentar values
+(6,NULL, 6, 3, 'Napokon nešto u vezi web developmenta. GG FOI!');
+insert into komentar values
+(7,NULL, 6, 6, 'Slažem se, ovoga je trebalo uvesti i ranije!');
+insert into komentar values
+(8,NULL, 3, 8, 'Koji treš!');
+insert into komentar values
+(9,NULL, 3, 7, 'Ne bih se složio. Po traileru izgleda jako dobro.');
+insert into komentar values
+(10,NULL, 3, 8, 'Ma traileri su glupost. :) ');
+
+
+insert into kupljeni_dogadjaji values
+(1, 1);
+insert into kupljeni_dogadjaji values
+(1, 10);
+insert into kupljeni_dogadjaji values
+(4, 10);
+insert into kupljeni_dogadjaji values
+(5, 10);
+insert into kupljeni_dogadjaji values
+(6, 10);
+insert into kupljeni_dogadjaji values
+(5, 4);
+insert into kupljeni_dogadjaji values
+(6, 4);
+insert into kupljeni_dogadjaji values
+(7, 2);
+insert into kupljeni_dogadjaji values
+(4, 2);
+insert into kupljeni_dogadjaji values
+(1, 5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+
+
+#fora kad se registrira i reloada stranica, automatski se dodaju korisnici u bazu - popraviti (include novog phpa nakon upisa, i onda iz njega smarty.. ?)
+
+
+
+
+
+
+
+
+
+#kad je netko ulogiran, nema ponovno!
+
+#funkcija za brisanje sadrzaja foldera prije mijenjanja podataka o avataru
+
+#uredi korisnika -> promjena passworda!
+#promjena emaila
+
+#baza: 
+TABLICA -> PROMJENA
+=====================
+događaj -> vrijeme početka TIME -> VARCHAR (20)
+slika -> promjene
+komentar -> promjene
+
+
+
+
+#galerija slika -> DONE
+#straničenje na serveru s ajaxom
+#komentar na komentar
+#Automatski load ocjene za neki događaj
+#upload slike -> ne dati ako je prazno koje polje i sl.
+#urediti malo te forme
+#problem nakon uploada slike u galeriju -> DONE

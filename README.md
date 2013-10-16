@@ -1,46 +1,9 @@
-Sustav za on-line dogağaje 
- 
-Sustav omoguæuje kreiranje dogağaja podijeljenih prema kategorijama dogağaja. Svaki dogağaj opisan je datumom i 
-vremenom poèetka, brojem slobodnih mjesta, maksimalnim brojem karata za jednu osobu, cijenom karte i ostalo što 
-developer smatra bitnim. Svaki korisnik, da bi mogao koristiti sustav, mora kreirati korisnièki raèun. Sustav ima 
-sljedeæe korisnike: 
-• neregistrirani korisnik je korisnik koji nema korisnièki raèun na sustavu. Èlanom sustava moe postati u 
-sluèaju registracije na sustav, bilo putem OpenID raèuna (Google, Facebook i druge sustavi koji podravaju OID) ili 
-putem ugrağenog sustava za registraciju korisnika.  Korisnik se smatra registriranim tek nakon aktivacije raèune putem 
-aktivacijse poruke elektronièke pošte (link za aktivaciju vrijedi 24 sati). Neregistrirani korisnik ima moguænost 
-pregledavanja aktivnih dogağaja u sustavu uz detalje samog dogağaja. Moe vidjeti listu ljudi koji su obavili kupovinu 
-ulaznica za navedeni dogağaj. Moe vidjeti komentare koji su stavljeni kao komentari dogağaja no ne moe stavljati 
-svoje komentare. 
-• registrirani korisnik ima kreiran i aktiviran korisnièki raèun. U sluèaju tri neuspješne prijave na sustav (za 
-redom), korisniku se zakljuèava pristup sustavu; u tom sluèaju  se  aktiviranje korisnièkog raèuna obavlja od strane 
-administratora sustava. U sluèaju uspješne prijave na sustav, kreira se korisnièka sesija koja traje ili do isteka vremena 
-podešenog od strane servera (default: 30 minuta) ili do odjave korisnika sa sustava. Registrirani korisnik ima sva prava 
-kao i neregistrirani korisnik plus moguænost uvida u dogağaje za koje je kupio kartu, popis ostalih korisnika koji su 
-kupili kartu za isti dogağaj, svoje i tuğe komentare za te i za dogağaje za koje nije kupio ulaznicu, komentiranje svih 
-aktivnih dogağaja u sustavu. Ovaj tip korisnika ima uvid u sve aktivne dogağaje u sustavu (rok dešavanja još nije 
-istekao) za koje nije kupio kartu koji se ispisuju putem stranièenja ukoliko je to potrebno (npr. ima više od 10 aktivnih 
-dogağaja u sustavu); za takve dogağaje moe kupiti od jedne do maksimalno navedenog broja karata. Moguæe je 
-pregledati detalje svakog dogağaja poput galerije slika, dodatnih paketa i tome slièno. Korisnik moe pretraivati i 
-sortirati aktivne oglase po grupi oglasa, po datumu isteka, korisnièkom imenu, po imenu dogağaja, po grupi dogağaja. 
-Korisniku je omoguæena pohrana èesto korištenih podataka, poput podataka kreditne kartice koja se koristi za kupovinu, 
-jedne ili više adresa za dostavu, naèin dostave i tome slièno. Svi dogağaji su grupirani u kategorije (npr. glazba, koncert, 
-film, sport i sl.; konaèan broj kategorija je ostavljen na slobodu osobi koja razvija sustav). Svaki registrirani korisnik 
-ima moguænost promjene vlastitih podataka. Prilikom odabira dogağaja korisnik odabire set usluga vezanih za odabrani 
-dogağaj (npr. samo ulaznica ili ulaznica + prijevoz) koji se stavljaju u košaricu. Korisnik moe imati jedan ili više 
-odabranih dogağaja koji se nalaze u košarici radi provjere odabranih dogağaja prije finalizacije transakcije. 
-• moderator ima sve ovlasti kao i registrirani korisnik uz moguænosti upravljanja odreğenim dogağajem kojeg je 
-vlasnik. Moderator moe biti vlasnik dogağaja koji se nalazi u kategoriji za koju je zaduen. Unutar aktivnosti vezanih 
-za njegovu kategoriju ima pravu uvida u sve istekle i aktivne dogağaje, pratiti stanje svakog od dogağaja (broj 
-slobodnih karata, komentari), mijenjati lokaciju, slike (u sluèaju više od jedne slike generira se galerija slika) i ostale 
-multimedijske podatke (ukoliko su prisutni) svakog od dogağaja, otkazivati aktivne dogağaje ukoliko doğe do 
-nepredviğenih okolnosti, onemoguæivanje korisnika za prisustvo odreğenog registriranog korisnika na dogağajima koji 
-su organizirani od strane njega, oznaèavanje korisnika radi neprimjerenih komentara unutar njegovih dogağaja. 
-Prilikom definiranja dogğaja, moderator moe definirati i dodatni paket usluga koji prati dogağaje i ukljuèuje, izmeğu 
-ostalog, prijevoz, prenoèište, hranu i ostale usluge sliènog tipa. 
-• administrator sustava ima sva prava kao i administrator fakulteta uz ovlasti upravljanja korisnièkim podacima 
-svakog korisnika, uvida u statistiku rada sustava, uvid u statistiku pojedinog korisnika (status prijave, uvid u 
-dokumente, status korisnièkog raèuna), blokiranja korisnièkih raèuna u sluèaju povrede pravila korištenja (prituba 
-drugih korisnika, prituba moderatora èasopisa, vulgarni komentari i tome slièno), zamrzavanje korištenja raèuna na 
-odreğeno vrijeme (X sati, X dana,...), brisanje korisnièkih raèuna u sluèaju treæe opomene, odobravanje/brisanje 
-kategorije, odobravanje/brisanje moderatora, odobravanje/brisanje  dogağaja. Osim toga, on ima moguænost upravljanja 
-"sustavskim vremenom" radi simuliranja protoka vremena na projektnoj aplikaciji. 
+#Sustav za on-line dogaÄ‘aje
+
+Sustav omoguÄ‡uje kreiranje dogaÄ‘aja podijeljenih prema kategorijama dogaÄ‘aja. 
+* Svaki dogaÄ‘aj opisan je datumom i vremenom poÄetka, brojem slobodnih mjesta, maksimalnim brojem karata za jednu osobu, cijenom karte i ostalo Å¡to developer smatra bitnim. Svaki korisnik, da bi mogao koristiti sustav, mora kreirati korisniÄki raÄun.
+* Sustav ima sljedeÄ‡e korisnike: 
+ * neregistrirani korisnik je korisnik koji nema korisniÄki raÄun na sustavu. ÄŒlanom sustava moÅ¾e postati u sluÄaju registracije na sustav, bilo putem OpenID raÄuna (Google, Facebook i druge sustavi koji podrÅ¾avaju OID) ili putem ugraÄ‘enog sustava za registraciju korisnika. Korisnik se smatra registriranim tek nakon aktivacije raÄune putem aktivacijse poruke elektroniÄke poÅ¡te (link za aktivaciju vrijedi 24 sati). Neregistrirani korisnik ima moguÄ‡nost pregledavanja aktivnih dogaÄ‘aja u sustavu uz detalje samog dogaÄ‘aja. MoÅ¾e vidjeti listu ljudi koji su obavili kupovinu ulaznica za navedeni dogaÄ‘aj. MoÅ¾e vidjeti komentare koji su stavljeni kao komentari dogaÄ‘aja no ne moÅ¾e stavljati svoje komentare. 
+ * registrirani korisnik ima kreiran i aktiviran korisniÄki raÄun. U sluÄaju tri neuspjeÅ¡ne prijave na sustav (za redom), korisniku se zakljuÄava pristup sustavu; u tom sluÄaju se aktiviranje korisniÄkog raÄuna obavlja od strane administratora sustava. U sluÄaju uspjeÅ¡ne prijave na sustav, kreira se korisniÄka sesija koja traje ili do isteka vremena podeÅ¡enog od strane servera (default: 30 minuta) ili do odjave korisnika sa sustava. Registrirani korisnik ima sva prava kao i neregistrirani korisnik plus moguÄ‡nost uvida u dogaÄ‘aje za koje je kupio kartu, popis ostalih korisnika koji su kupili kartu za isti dogaÄ‘aj, svoje i tuÄ‘e komentare za te i za dogaÄ‘aje za koje nije kupio ulaznicu, komentiranje svih aktivnih dogaÄ‘aja u sustavu. Ovaj tip korisnika ima uvid u sve aktivne dogaÄ‘aje u sustavu (rok deÅ¡avanja joÅ¡ nije istekao) za koje nije kupio kartu koji se ispisuju putem straniÄenja ukoliko je to potrebno (npr. ima viÅ¡e od 10 aktivnih dogaÄ‘aja u sustavu); za takve dogaÄ‘aje moÅ¾e kupiti od jedne do maksimalno navedenog broja karata. MoguÄ‡e je pregledati detalje svakog dogaÄ‘aja poput galerije slika, dodatnih paketa i tome sliÄno. Korisnik moÅ¾e pretraÅ¾ivati i sortirati aktivne oglase po grupi oglasa, po datumu isteka, korisniÄkom imenu, po imenu dogaÄ‘aja, po grupi dogaÄ‘aja. Korisniku je omoguÄ‡ena pohrana Äesto koriÅ¡tenih podataka, poput podataka kreditne kartice koja se koristi za kupovinu, jedne ili viÅ¡e adresa za dostavu, naÄin dostave i tome sliÄno. Svi dogaÄ‘aji su grupirani u kategorije (npr. glazba, koncert, film, sport i sl.; konaÄan broj kategorija je ostavljen na slobodu osobi koja razvija sustav). Svaki registrirani korisnik ima moguÄ‡nost promjene vlastitih podataka. Prilikom odabira dogaÄ‘aja korisnik odabire set usluga vezanih za odabrani dogaÄ‘aj (npr. samo ulaznica ili ulaznica + prijevoz) koji se stavljaju u koÅ¡aricu. Korisnik moÅ¾e imati jedan ili viÅ¡e odabranih dogaÄ‘aja koji se nalaze u koÅ¡arici radi provjere odabranih dogaÄ‘aja prije finalizacije transakcije.
+ * moderator ima sve ovlasti kao i registrirani korisnik uz moguÄ‡nosti upravljanja odreÄ‘enim dogaÄ‘ajem kojeg je vlasnik. Moderator moÅ¾e biti vlasnik dogaÄ‘aja koji se nalazi u kategoriji za koju je zaduÅ¾en. Unutar aktivnosti vezanih za njegovu kategoriju ima pravu uvida u sve istekle i aktivne dogaÄ‘aje, pratiti stanje svakog od dogaÄ‘aja (broj slobodnih karata, komentari), mijenjati lokaciju, slike (u sluÄaju viÅ¡e od jedne slike generira se galerija slika) i ostale multimedijske podatke (ukoliko su prisutni) svakog od dogaÄ‘aja, otkazivati aktivne dogaÄ‘aje ukoliko doÄ‘e do nepredviÄ‘enih okolnosti, onemoguÄ‡ivanje korisnika za prisustvo odreÄ‘enog registriranog korisnika na dogaÄ‘ajima koji su organizirani od strane njega, oznaÄavanje korisnika radi neprimjerenih komentara unutar njegovih dogaÄ‘aja. Prilikom definiranja dogÄ‘aja, moderator moÅ¾e definirati i dodatni paket usluga koji prati dogaÄ‘aje i ukljuÄuje, izmeÄ‘u ostalog, prijevoz, prenoÄiÅ¡te, hranu i ostale usluge sliÄnog tipa. 
+ * administrator sustava ima sva prava kao i administrator fakulteta uz ovlasti upravljanja korisniÄkim podacima svakog korisnika, uvida u statistiku rada sustava, uvid u statistiku pojedinog korisnika (status prijave, uvid u dokumente, status korisniÄkog raÄuna), blokiranja korisniÄkih raÄuna u sluÄaju povrede pravila koriÅ¡tenja (prituÅ¾ba drugih korisnika, prituÅ¾ba moderatora Äasopisa, vulgarni komentari i tome sliÄno), zamrzavanje koriÅ¡tenja raÄuna na odreÄ‘eno vrijeme (X sati, X dana,...), brisanje korisniÄkih raÄuna u sluÄaju treÄ‡e opomene, odobravanje/brisanje kategorije, odobravanje/brisanje moderatora, odobravanje/brisanje dogaÄ‘aja. Osim toga, on ima moguÄ‡nost upravljanja "sustavskim vremenom" radi simuliranja protoka vremena na projektnoj aplikaciji.
